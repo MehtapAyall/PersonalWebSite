@@ -131,6 +131,13 @@ h6 {
     width: 300px;
     left: -100%;
   }
+
+  .navmenu ul {
+    display: none; /* gizli */
+  }
+  .mobile-nav-active .navmenu > ul {
+    display: block; /* aktifken görünür */
+  }
 }
 
 @media (min-width: 1200px) and (max-width: 1600px) {
